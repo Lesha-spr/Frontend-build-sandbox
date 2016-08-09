@@ -11,6 +11,10 @@
   top: 0;
   z-index: 10;
 
+  @include tablet {
+    height: auto;
+  }
+
   &-wrapper {
     display: flex;
     flex-direction: row;
