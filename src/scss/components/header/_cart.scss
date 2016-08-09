@@ -21,13 +21,13 @@ $cartIconTabletColor: $primary;
     background: $cartWrapperColor;
     display: flex;
     flex-direction: row;
-    padding: 9px;
     position: relative;
     z-index: 10;
 
     @include tablet {
       border: 1px $cartWrapperBorderColor solid;
       border-radius: $globalBorderRadius;
+      padding: 9px;
     }
   }
 
